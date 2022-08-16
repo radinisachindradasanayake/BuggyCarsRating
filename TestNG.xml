@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Buggy Cars Rating">
+
+<listeners>
+<listener class-name="com.buggycarsrating.utilities.Reporting"/>
+</listeners>
+
+		<test name="Buggy Cars Rating">
+		<parameter name="browser" value="chrome" />
+		<classes>
+		
+		<class name="com.buggycarsrating.testCases.TC_01_Register" />
+		<class name="com.buggycarsrating.testCases.TC_02_Login" />
+		<class name="com.buggycarsrating.testCases.TC_03_Editing_Profile" />
+		<class name="com.buggycarsrating.testCases.TC_04_Voting" />
+		<class name="com.buggycarsrating.testCases.TC_05_Verify_Voting_without_login" />
+		
+			
+			
+			
+			
+
+		</classes>
+
+	</test>
+
+</suite>
